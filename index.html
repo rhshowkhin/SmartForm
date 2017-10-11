@@ -13,7 +13,7 @@
     <div class="jumbotron" id="welcome">
       <h1>Welcome to SmartForm!</h1>
       <p>Front-end Technology Survey</p>
-      <p><button id="startBtn" class="btn btn-primary btn-lg">Start Survey</button></p>
+      <p><button id="startbtn" class="btn btn-primary btn-lg">Start Survey</button></p>
     </div>
     <!-- Welcome END -->
     <!-- Question 1 -->
@@ -27,7 +27,7 @@
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="email" placeholder="Email">
         </div>
-        <button id ="q1Next" disabled class="btn btn-success">Next</button>
+        <button id="q1nxt" disabled class="btn btn-success">Next</button>
       </div>
     </div>
     <!-- Question 1 END -->
@@ -35,9 +35,9 @@
     <div class="row jumbotron" id="q2">
       <div class="col-sm-10 q2">
         <h2>Choose a front-end technology</h2>
-        <button class="btn btn-lg btn-warning" id="htmlQ" >HTML</button>
-        <button class="btn btn-lg btn-danger" id="cssQ" >CSS</button>
-        <button class="btn btn-lg btn-info" id="jsQ">JavaScript</button>
+        <button id="htmlQ" class="btn btn-lg btn-warning">HTML</button>
+        <button id="cssQ" class="btn btn-lg btn-danger">CSS</button>
+        <button id="jsQ" class="btn btn-lg btn-info">JavaScript</button>
       </div>
     </div>
     <!-- Question 2 END -->
@@ -89,14 +89,14 @@
         </label>
         </div>
         <div class="btnRight">
-          <button class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
-          <button class="btn btn-success">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
+          <button class="btn btn-primary prevQ2"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
+          <button id="htmlnxt" class="btn btn-success">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
         </div>
       </div>
     </div>
     <!-- Question 2a END -->
     <!-- Question 2b -->
-    <div class="row jumbotron" id="q2b">
+    <div class="row jumbotron " id="q2b">
       <div class="col-sm-6">
         <p>What do you <strong>like</strong> about CSS?</p>
         <div class="checkbox">
@@ -138,7 +138,7 @@
         </label>
         </div>
         <div class="btnRight">
-          <button class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
+          <button class="btn btn-primary prevQ2"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
           <button class="btn btn-success">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
         </div>
       </div>
@@ -192,7 +192,7 @@
         </label>
         </div>
         <div class="btnRight">
-          <button class="btn btn-primary"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
+          <button class="btn btn-primary prevQ2"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
           <button class="btn btn-success">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
         </div>
       </div>
